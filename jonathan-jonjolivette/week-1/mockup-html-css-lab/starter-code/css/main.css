@@ -1,0 +1,76 @@
+/* === Global ==== */
+body{
+  padding: 3%;
+}
+
+body ,a{
+  font-family: "Lato";
+  text-decoration: none;
+}
+
+/* === HEADER === */
+h1 a{
+  color: #f8ce77;
+  font-weight: 300;
+}
+
+h2, a, h3{
+  font-weight: 300;
+}
+
+/* === NAVIGATION === */
+nav a{
+  color: #d1d5da;
+  /*display: flex;*/
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-left: 5px;
+
+}
+
+/* === ARTICLE === */
+h3{
+  color: #d1d5da;
+  font-size: 30px;
+}
+
+h2 a{
+  color: black;
+}
+
+article, article p{
+  max-width: 82%
+}
+
+img{
+  max-width: 90%;
+}
+
+h4{
+  border-bottom: 1px solid #e7e7e7;
+  color: #f8cf7b;
+  font-size: 18px;
+  padding-bottom: 40px;
+  width: 82%;
+}
+
+h4 a{
+  color: #f8cf7b;
+  flex-direction: ;
+  font-weight: bold;
+  padding-left: 90%;
+  text-decoration: none;
+}
+
+/* === FOOTER === */
+footer{
+  color: #d1cecf;
+  padding-top: 60px;
+  max-width: 70%;
+}
+
+footer a{
+  color: #fadeaf;
+  text-decoration: none;
+}
