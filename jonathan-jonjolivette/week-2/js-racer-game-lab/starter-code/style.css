@@ -1,0 +1,48 @@
+/*Jonathan Jolivette General Assembly WDI - 51 2019*/
+
+body{
+  background: #000;
+  color: white;
+  margin: 0;
+}
+
+.kick {
+  background-color: #000;
+  display: none;
+  /*position: absolute;*/
+  /*margin: 0 auto;*/
+  z-index: -1;
+  height: 60%;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  /*width: 500px;*/
+  /*height: 500px;*/
+  margin-top: -250px; /* Half the height */
+  margin-left: -250px; /* Half the width */
+}
+
+#red{ /*KLAW CHARACTER*/
+  height: 150px;
+  display: none;
+}
+
+#blue{  /*TCHALA CHARACTER*/
+  margin-top: 20%;
+  height: 200px;
+  display: none;
+}
+
+#red, #blue{
+  position: absolute;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+li{
+  cursor: pointer;
+  flex: 1;
+  justify-content: space-around;
+}
