@@ -1,0 +1,21 @@
+html, body{
+  height: 100%;
+  color: #fff;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #000;
+  background-image: url("/Users/johnhenry/wdi/sf-wdi-51-assignments/jonathan-jonjolivette/week-4/express-intro-lab/public/images/bg.jpg"); /* The image used */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+/*dynamically created elements*/
+

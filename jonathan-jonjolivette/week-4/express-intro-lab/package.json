@@ -4,6 +4,8 @@
   "description": "Express Practice Base Challenges - Building an Express App",
   "main": "server.js",
   "dependencies": {
+    "bootstrap": "^4.3.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4"
   },
   "devDependencies": {},
