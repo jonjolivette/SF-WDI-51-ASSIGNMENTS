@@ -16,6 +16,11 @@ body {
   -webkit-background-size: cover;
 }
 
+.msg{
+  text-align: center;
+  margin: 15% 45% 0 0;
+}
+
 
 /*dynamically created elements*/
 /* h3{
